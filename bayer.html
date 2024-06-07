@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation Bar</title>
+  <link rel="stylesheet" href="bayer.css">
+</head>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="hamburger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Hakkinda</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
+                <a href="#">Ürünler</a>
+                <div class="dropdown-content">
+                    <a href="abrassive.html">Aşındırıcılar</a>
+                    <a href="Autorefinishes.html">Oto Yenileme</a>
+                    <a href="#">Tüm Ürünler</a>
+                </div>
+            </li>
+            <li><a href="location.html">Konum</a></li>
+            <li><a href="gallary.html">Galeri</a></li>
+            <li><a href="contact.html" class="contact">İletişim</a></li>
+        </ul>
+    </nav>
+    
+  
+  <header>
+    <div class="left-side">
+      <h1>Tek Kat Boyama ile Renk Katma İlerlemesi</h1>
+      <p>Aşındırıcılar, Araba Yenileme ve Filonuz İçin Ağır Hizmet Boyaları Tedarik Ediyoruz, yıllarca dayanıklı!</p>
+      <a href="contact.html"><button class="yellow-button">Bize ulaşın</button></a>
+      <a href="#" class="learn-more">Daha Fazla Bilgi Edinin <span>&rarr;</span></a>
+    </div>
+    <div class="right-side">
+      <img src="23.png" alt="Image">
+      <div class="under">
+      <div class="text-box">
+        <p class="t">40+</p>
+        <p>Dayanıklı ve Kaliteli Ürünler</p>
+      </div>
+      <div class="arrow-box">
+        <p>35+ yıldır bu sektörde ustalaşmış son derece güvenilir ortaklar<a href="gallary.html"></a> <span>&rarr;</span></a></p>
+       
+      </div>
+        </div>
+    </div>
+  </header>
+  <body>
+    
+    <div class="bcontainer">
+        <div class="offercontainer">
+            <img src="https://images.unsplash.com/photo-1621999626127-e33d83bb21c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MzI4NDd8&ixlib=rb-4.0.3&q=85" alt="Background Image">
+           <div class="offercontent">
+             <h1>Ne sunuyoruz</h1>
+             <div class="scroll-down">
+               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="#FFFFFF" d="M12 24l-1.406-1.406 9.609-9.609h-16.203v-1.969h16.203l-9.609-9.609 1.406-1.406 12 12z"/></svg>
+               <p>Aşağı Kaydır</p>
+             </div>
+           </div>
+         </div>
+         <div class="cbbox">
+        <div class="bbox">
+            <img src="h.png" alt="Image 1">
+            <h2>Oto Yenileme</h2>
+            <p>Araçları parlak sanat eserlerine dönüştürme, benzersiz kalite ve dayanıklılık.</p>
+            <a href="Autorefinishes.html"><button class="byellow-button">View</button></a>
+        </div>
+        <div class="bbox">
+            <img src="https://images.unsplash.com/photo-1586509569974-3af5bbdc4e53?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3MDU5NTl8&ixlib=rb-4.0.3&q=85" alt="Image 2">
+            <h2>Aşındırıcılar</h2>
+            <p>Aşındırıcılarımız, kusursuz bir yüzey hazırlığı için mükemmel sonuçlar verir
+</p>
+            <a href="abrassive.html"><button class="byellow-button">View</button></a>
+        </div>
+        <div class="bbox">
+            <img src="https://images.unsplash.com/photo-1623072701223-54c0476bb767?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0NDkyMDZ8&ixlib=rb-4.0.3&q=85" width="400px" height="350px" alt="Image 3">
+            <h2>Tüm Ürünler</h2>
+            <p>Ürünlerimizin kapsamlı yelpazesini keşfedin</p>
+            <a href=""><button class="byellow-button">View</button></a>
+        </div>
+    </div>
+    </div>
+
+  <div class="flipcontainer">
+    <div class="partners"><h2>Partnerlerimiz</h2></div>
+    <div class="partner-images">
+        <div class="partner-image" onclick="flipImage(this)">
+            <img src="sgl.png" alt="Partner 1">
+        </div>
+        <div class="partner-image flip" onclick="flipImage(this)">
+            <img src="p.png" alt="Partner 2">
+        </div>
+    </div>
+</div>
+<div class="nav-dots">
+    <div class="nav-dot active" onclick="changePartner(1)"></div>
+    <div class="nav-dot" onclick="changePartner(2)"></div>
+</div>
+
+
+  
+
+
+<h1 class="titles">Makalelerimiz</h1>
+<div class="newscontainer">
+    <div class="newsbox">
+      <img class="newsimage" src="3797.jpg" alt="Image 1">
+      <div class="newstitle">MIDOFMED</div>
+      <div class="newstext">Izmir Business Women's Association proudly participated in the prestigious MID OF MED Mediterranean Pool Business Summit held in Turkey.</div>
+      <a href="blog.html" class="newslink">Daha Fazla Bilgi Edinin <span class="newsarrow"></span></a>
+    </div>
+    <div class="newsbox">
+      <img class="newsimage" src="sg.png" alt="Image 2">
+      <div class="newstitle">ASINDIRICI DÜNYASI</div>
+      <div class="newstext">At Egeli Boya, we believe in forging enduring partnerships that transcend conventional boundaries. Our collaboration with Saint-Gobain epitomizes this ethos, as we work hand in hand to deliver cutting-edge products and services that redefine standards of quality and performance.</div>
+      <a href="blog.html" class="newslink">Daha Fazla Bilgi Edinin <span class="newsarrow"></span></a>
+    </div>
+    <div class="newsbox">
+      <img class="newsimage" src="3804.jpg" alt="Image 3">
+      <div class="newstitle">Ankara Sanayi Odasi</div>
+      <div class="newstext">Some text here Some text here Some text here Some text here Some text here Some text here</div>
+      <a href="blog.html" class="newslink">Daha Fazla Bilgi Edinin <span class="newsarrow"></span></a>
+    </div>
+    <div class="newsbox">
+      <img class="newsimage" src="3795.jpg" alt="Image 4">
+      <div class="newstitle">IZMIR YÜKSEK TEKNOLOJI ENSTITÜSÜ</div>
+      <div class="newstext">Some text here Some text here Some text here Some text here Some text here Some text here</div>
+      <a href="blog.html" class="newslink">Daha Fazla Bilgi Edinin <span class="newsarrow"></span></a>
+    </div>
+  </div>
+
+  <div class="location-container">
+    <div class="locationleft-side">
+      <h2>Bizi Nerede Bulabilirsiniz</h2>
+      <h3>Egeli Boya San ve Tic Ltd Şti</h3>
+      <a href="https://maps.app.goo.gl/CLHwWWobXyntQTS29"><p class="address">Karacaoglan Mahallesi 6172 Sokak No:1 Bernova / IZMIR</p></a>
+      <div class="working-hours">
+        <div class="day-time">
+          <div class="day">Pazartesi:</div>
+          <div class="time">9:00 - 18:00</div>
+        </div>
+        <!-- Repeat for other days -->
+        <div class="day-time">
+          <div class="day">Salı:</div>
+          <div class="time">9:00 - 18:00</div>
+        </div>
+        <div class="day-time">
+          <div class="day">Çarşamba:</div>
+          <div class="time">9:00 - 18:00</div>
+          </div>
+          <div class="day-time">
+            <div class="day">Perşembe:</div>
+            <div class="time">9:00 - 18:00</div>
+          </div>
+          <div class="day-time">
+            <div class="day">Cuma:</div>
+            <div class="time">9:00 - 18:00</div>
+          </div>
+          <div class="day-time">
+            <div class="day">Cumartesi:</div>
+            <div class="time">9:00 - 18:00 </div>
+          </div>
+          <div class="day-time">
+            <div class="day">Pazar:</div>
+            <div class="time">Kapalı</div>
+        </div>
+        <a href="https://maps.app.goo.gl/CLHwWWobXyntQTS29"><button class="get-directions">Get Directions</button></a>
+      </div>
+      <div class="contact-icons">
+        <a href="contact.html"><span class="phone-icon">&#9742;</span></a>
+        <a href="contact.html"><span class="mail-icon">&#9993;</span></a>
+      </div>
+    </div>
+    <div class="locationright-side">
+      <div class="map">
+        <!-- Google Maps embedded map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.3674827489976!2d27.22173307614331!3d38.43297997182701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b96321303064a9%3A0xa4d91a841f38a2b9!2zS2FyYWNhb8SfbGFuLCA2MTcyLiBTay4gTm86MSwgMzUwNzAgR8O2a2RlcmUvQm9ybm92YS_EsHptaXIsIFTDvHJraXll!5e0!3m2!1sen!2sde!4v1713800307565!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <script>
+    function flipImage(element) {
+        element.classList.toggle('flip');
+    }
+
+    function changePartner(partnerIndex) {
+        const partnerImages = document.querySelectorAll('.partner-image');
+        const navDots = document.querySelectorAll('.nav-dot');
+        for (let i = 0; i < partnerImages.length; i++) {
+            if (i === partnerIndex - 1) {
+                partnerImages[i].classList.remove('flip');
+                navDots[i].classList.add('active');
+            } else {
+                partnerImages[i].classList.add('flip');
+                navDots[i].classList.remove('active');
+            }
+        }
+    }
+
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+    
+</script>
+  
+  
+</body>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Hızlı bağlantılar</h3>
+      <ul>
+        <li><a href="bayer.html">Home</a></li>
+        <li><a href="gallary.html">Galeri</a></li>
+        <li><a href="#">Hakkinda</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Veri ve Gizlilik</h3>
+      <ul>
+        <li><a href="#">Veri koruma</a></li>
+        <li><a href="#">Künye</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+    </div>
+    <div class="footer-section contact-info">
+      <h3>Bize ulaşın</h3>
+      <p><strong>Telefon:</strong> +90(232) 3653035</p>
+      <p><strong>FAX:</strong> +90(232) 3653036</p>
+      <p><strong>Email:</strong> İnfo@egeliboya.com</p>
+      <p><strong>Adres:</strong> Karacaoğlan, 6172. Sk. No:1, 35070 Bornova/İzmir, Türkei</p>
+    </div>
+  </div>
+</footer>
+
+</html>
